@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.198,=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.777,P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.pas=P:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwain_VCL.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.907,=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.505,C:\Users\Ondrej Pokorny\Documents\RAD Studio\Projects\Project1.dproj=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\DTwain_FMX.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.709,=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.272,P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.pas=P:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwain_FMX.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.972,=E:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwainUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.213,P:\programs\delphi\Lib_XE2\DelphiTwain\units\uFormSelectSource_FMX.pas=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.965,E:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwainUtils.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.980,E:\programs\delphi\Lib_XE2\DelphiTwain\units\Twain.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.264,=E:\programs\delphi\Lib_XE2\DelphiTwain\units\Twain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.533,P:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwain_VCL.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.980,E:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwain_FMX.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.747,E:\programs\delphi\Lib_XE2\DelphiTwain\units\uFormSelectSource_FMX.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.214,P:\programs\delphi\Lib_XE2\DelphiTwain\units\uFormSelectSource_FMX.fmx=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.833,=P:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwain.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.358,C:\Users\Ondrej Pokorny\Documents\RAD Studio\Projects\Unit1.fmx=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.521,=E:\programs\delphi\Lib_XE2\DelphiTwain\units\uFormSelectSource_FMX.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.493,=C:\Users\Ondrej Pokorny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.965,E:\programs\delphi\Lib_XE2\DelphiTwain\units\DelphiTwain.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.980,=C:\Users\Ondrej Pokorny\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.994,E:\programs\delphi\Lib_XE2\DelphiTwain\units\uFormSelectSource_FMX.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.358,C:\Users\Ondrej Pokorny\Documents\RAD Studio\Projects\Unit1.pas=P:\programs\delphi\Lib_XE2\DelphiTwain\examples\FireMonkey\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
