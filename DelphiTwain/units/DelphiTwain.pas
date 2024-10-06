@@ -753,10 +753,7 @@ end;
 {Returns application language property}
 function TTwainIdentity.GetLanguage(): TTwainLanguage;
 begin
-  if Structure.Version.Language = High(TW_UINT16) then
-    Result := tlUserLocale
-  else
-    Result := TTwainLanguage(Structure.Version.Language);
+  Result := TTwainLanguage(Structure.Version.Language + 1);
 end;
 
 function TTwainIdentity.GetMajorVersion: TW_UINT16;
@@ -772,10 +769,7 @@ end;
 {Sets application language property}
 procedure TTwainIdentity.SetLanguage(const Value: TTwainLanguage);
 begin
-  if Ord(Value) >= 0 then
-    Structure.Version.Language := Ord(Value)
-  else
-    Structure.Version.Language := High(TW_UINT16);
+  Structure.Version.Language := Word(Value) - 1;
 end;
 
 procedure TTwainIdentity.SetMajorVersion(const aMajorVersion: TW_UINT16);
@@ -1556,7 +1550,7 @@ begin
         //and not a wired in value!
         //If not, you may get error on strtofloat
         //original: Return := IntToStr(Whole) + ',' + IntToStr(Frac);
-        Return := IntToStr(Whole) + {%H-}{$IFDEF DELPHI_XE2_UP}FormatSettings.{$ENDIF}DecimalSeparator + IntToStr(Frac);
+        Return := IntToStr(Whole) + {%H-}{$IFDEF DELPHI_XE_UP}FormatSettings.{$ENDIF}DecimalSeparator + IntToStr(Frac);
     {String types, which are all ended by a null char (#0)}
     TWTY_STR32,
     TWTY_STR64,

@@ -335,7 +335,7 @@ procedure TPointerList.SetAllocated(const Value: Integer);
 begin
   {Must be always greater than 0 the number of allocated items}
   {And it also should not be smaller than count}
-  if (Value > 0) and (Value >= Count) then
+  if (Value > 0) and (Value <= Count) then
   begin
     {Just realloc memory and update property variable}
     ReallocMem(Data, (Value * sizeof(Pointer)));
